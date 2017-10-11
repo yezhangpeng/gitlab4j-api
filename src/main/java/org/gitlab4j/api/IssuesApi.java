@@ -172,7 +172,7 @@ public class IssuesApi extends AbstractApi implements Constants {
      * @param confidential set the issue to be confidential, default is false, optional
      * @param assigneeIds the IDs of the users to assign issue, optional
      * @param milestoneId the ID of a milestone to assign issue, optional
-     * @param labels comma-separated label names for an issue, optional
+     * @param labels comma-separated label names for an issue, optional 标记需求、bug
      * @param createdAt the date the issue was created at, optional
      * @param dueDate the due date, optional
      * @param mergeRequestToResolveId the IID of a merge request in which to resolve all issues. This will fill the issue with a default 
