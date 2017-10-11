@@ -163,7 +163,7 @@ public class IssuesApi extends AbstractApi implements Constants {
 
     /**
      * Create an issue for the project.
-     *
+     * Normally use this method
      * POST /projects/:id/issues
      *
      * @param projectId the ID of the project owned by the authenticated user, required
